@@ -7,17 +7,17 @@ del oculuslog.txt
 cd %HOMEPATH%/Desktop
 mkdir OculusLog
 cd %HOMEPATH%/Desktop/OculusLog
-title Oculus Restart Service - Checking Admin Status - Made by Sebastian#8637
+title Oculus Restart Service - Checking Admin Status - Made by Sebastian#6789
 echo Start Launch = %time% %date%>> %txtpath%
 cls
 NET SESSION >nul 2>&1
 IF %ERRORLEVEL% EQU 0 (
     cls
-    title Oculus Restart Service - Admin Status: YES - Made by Sebastian#8637
+    title Oculus Restart Service - Admin Status: YES - Made by Sebastian#6789
 ) ELSE (
    echo Start Failed = %time% %date%>> %txtpath%
    cls
-   title Oculus Restart Service - Admin Status: NO - Made by Sebastian#8637
+   title Oculus Restart Service - Admin Status: NO - Made by Sebastian#6789
    cls
    color 4
    echo.Unauthorised Access - Administration Required.
